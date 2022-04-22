@@ -450,7 +450,7 @@ button:hover::after,
 }
 @media (max-width: 63.9375em) {
   .attribution {
-    font-size: 1.2em;
+    font-size: 1em;
     top: 0%;
   }
 }
