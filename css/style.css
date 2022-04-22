@@ -93,7 +93,7 @@ button,
 .button {
   position: relative;
   display: inline-block;
-  font-size: 0.875rem;
+  font-size: 1rem;
   padding: 0.8125rem 2.1875rem;
   border-radius: 3.125rem;
   background: linear-gradient(to right,  #F0B429, #F47920);
