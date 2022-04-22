@@ -63,7 +63,11 @@ h2 {
 .flex-jc-c {
   justify-content: center;
 }
-
+@media (max-width: 64em) {
+  .flex-jc-sb {
+    margin: auto 5em;
+  }
+}
 .flex-ai-c {
   align-items: center;
 }
@@ -113,6 +117,12 @@ button:hover::after,
 }
 .button:hover{
   color: #005883;
+}
+@media (max-width: 63.9375em) {
+  button,
+  .button {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 63.9375em) {
   .hide-for-mobile {
@@ -175,7 +185,12 @@ button:hover::after,
 .header nav {
   position: relative;
 }
-
+@media (max-width: 63.9375em){
+  .header .logo img {
+    width: 35rem!important;
+    height: 6rem!important;
+  }
+}
 .header .logo img {
   width: 15rem;
   height: 3rem;
@@ -203,6 +218,12 @@ button:hover::after,
     opacity: 1;
     visibility: visible;
     z-index: 1;
+  }
+  .header .main-navgation a {
+    padding: 0.625rem 0;
+    color: #2d314d;
+    font-size: 2rem!important;
+    transition: 0.3s ease-in-out;
   }
 }
 
@@ -252,8 +273,8 @@ button:hover::after,
 
 .header .menu > span {
   display: block;
-  width: 100%;
-  height: 0.125rem;
+  width: 120%;
+  height: 0.2rem;
   background: #2d314d;
   transform-origin: 0.1875rem 0.0625rem;
   transition: transform 0.3s ease-in-out;
@@ -301,7 +322,7 @@ button:hover::after,
 
 @media (min-width: 40em) {
   .hero .hero-image {
-    min-height: 25rem;
+    min-height: 30rem;
     background-position-y: 70%;
   }
 }
@@ -356,6 +377,11 @@ button:hover::after,
   .hero .hero-text {
     padding: 3.125rem 1.5rem;
   }
+  .hero .hero-text p {
+    font-size: 2em;
+    line-height: 1.5;
+    margin-bottom: 1.875rem;
+  }
 }
 
 @media (min-width: 64em) {
@@ -367,7 +393,7 @@ button:hover::after,
 }
 
 .hero .hero-text h1 {
-  font-size: 2.3125rem;
+  font-size: 2.5rem;
   line-height: 1.15;
   margin-bottom: 1.5rem;
 }
