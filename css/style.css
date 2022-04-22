@@ -550,6 +550,13 @@ button:hover::after,
       flex: 1;
   }
 }
+@media (max-width: 63.9374em){
+  #contacto{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
 #post-contacto, .contenido-anuncio{
 	height: 50%;
 	border: 1px solid #B3B6B7;
@@ -585,6 +592,7 @@ button:hover::after,
 }
 #icono-contacto{
 	margin-top: 0.6rem;
+  font-size: 1rem;
 }
 @media (max-width: 63.9375em) {
   #titulo-monitores{
@@ -596,7 +604,7 @@ button:hover::after,
     flex-wrap: wrap;
   }
   #post-contacto, .contenido-anuncio{
-    width: 75%;
+    width: 45%;
     height: 50%;
     border: 1px solid #B3B6B7;
     border-radius: 1rem;
@@ -611,7 +619,7 @@ button:hover::after,
     display: block;
   }
   #datos-contacto p.fecha{
-    font-size: 0.8em;
+    font-size: 1rem;
     color: #000000!important;
   }
   .nombre{
