@@ -586,7 +586,7 @@ button:hover::after,
   color: #000000!important;
 }
 .nombre{
-	font-size: 2rem!important;
+	font-size: 1rem!important;
 	font-weight: 800;
 	color: #2274F2;
 	margin-top: 0;
