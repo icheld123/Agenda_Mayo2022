@@ -5,8 +5,11 @@
   <title>Agenda de Egresados</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet"/><link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="normalize_reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="js/vermas.js"></script>
 </head>
 <body>
@@ -55,16 +58,15 @@
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <div class="attribution">
-          <p>e-Monitoria de Egresados ZCBC - UNAD</p>
-        </div>
-    </footer>
+    <footer class="footer"></footer>
     <script  src="js/script.js"></script>
     <script type="text/javascript">
-        $(function () {
-            $(".header").load("navbar.html");
-        });
+    $(function () {
+        $(".header").load("navbar.html");
+    });
+    $(function () {
+        $(".footer").load("footer.html");
+    });
     </script>
 </body>
 </html>

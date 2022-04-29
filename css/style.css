@@ -16,11 +16,10 @@ body {
   font-family: "Public Sans", sans-serif;
   font-weight: 400;
   color: #9698a6;
-  font-size: 0.875rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   overflow-x: hidden;
 }
-
 @media (min-width: 64em) {
   body {
     font-size: 1.125rem;
@@ -41,7 +40,7 @@ h4 {
 }
 @media (max-width: 63.97em) {
   h3,h4{
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 }
 
@@ -70,7 +69,7 @@ h2 {
 }
 @media (max-width: 64em) {
   .flex-jc-sb {
-    margin: auto 5em;
+    margin: auto 3em;
   }
 }
 .flex-ai-c {
@@ -84,7 +83,7 @@ h2 {
 
 @media (min-width: 64em) {
   .container {
-    max-width: 69.375rem;
+    max-width: 70em;
     margin: 0 auto;
   }
 }
@@ -93,7 +92,7 @@ button,
 .button {
   position: relative;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.8em;
   padding: 0.8125rem 2.1875rem;
   border-radius: 3.125rem;
   background: linear-gradient(to right,  #F0B429, #F47920);
@@ -126,7 +125,7 @@ button:hover::after,
 @media (max-width: 63.9375em) {
   button,
   .button {
-    font-size: 1.5rem!important;
+    font-size: 100%!important;
   }
 }
 @media (max-width: 63.9375em) {
@@ -192,20 +191,15 @@ button:hover::after,
 }
 @media (max-width: 63.9375em){
   .header .logo img {
-    width: 35rem!important;
-    height: 6rem!important;
+    max-width: 100%;
   }
-}
-.header .logo img {
-  width: 15rem;
-  height: 3rem;
 }
 
 @media (max-width: 63.9375em) {
   .header .main-navgation {
     position: absolute;
     top: calc(100% + 3.875rem);
-    left: 0;
+    margin-left: 0!important;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -231,10 +225,12 @@ button:hover::after,
     transition: 0.3s ease-in-out;
   }
 }
-
+.header .main-navgation {
+  margin-left: -8%;
+}
 .header .main-navgation a {
   padding: 0.625rem 0;
-  color: #2d314d;
+  color: #000;
   font-size: 1rem;
   transition: 0.3s ease-in-out;
 }
@@ -244,13 +240,18 @@ button:hover::after,
 }
 
 @media (min-width: 64em) {
+  .header .logo img {
+    max-width: 75%;
+  }
+  .header .main-navgation {
+    margin-left: -10%;
+  }
   .header .main-navgation a {
     position: relative;
-    font-size: 1.2rem;
-    color: #9698a6;
+    font-size: 90%;
   }
   .header .main-navgation a:not(:last-child) {
-    margin-right: 1.5rem;
+    margin-right: 1em;
   }
   .header .main-navgation a::after {
     position: absolute;
@@ -304,7 +305,10 @@ button:hover::after,
 .hero {
   background: #fff;
 }
-
+.hero .container {
+  min-height: 80vh;
+  padding: 0;
+}
 @media (max-width: 63.9375em) {
   .hero .container {
     padding: 0;
@@ -327,16 +331,16 @@ button:hover::after,
 
 @media (min-width: 40em) {
   .hero .hero-image {
-    min-height: 55em;
+    min-height: 35em;
     background-position-y: 70%;
   }
 }
 
 @media (min-width: 64em) {
   .hero .hero-image {
-    flex: 3;
+    flex: 2;
     order: 2;
-    min-height: 35rem;
+    min-height: 30em;
     background-image: none;
   }
   .hero .hero-image::before {
@@ -376,14 +380,16 @@ button:hover::after,
 
 .hero .hero-text {
   text-align: center;
+  display: block;
 }
 
 @media (max-width: 63.9375em) {
   .hero .hero-text {
     padding: 3.125rem 1.5rem;
+    display: block;
   }
   .hero .hero-text p {
-    font-size: 1.65em;
+    font-size: 75%;
     line-height: 1.5;
     margin-bottom: 1.875rem;
   }
@@ -393,7 +399,7 @@ button:hover::after,
   .hero .hero-text {
     flex: 2;
     order: 1;
-    text-align: start;
+    display: block;
   }
 }
 
@@ -412,6 +418,8 @@ button:hover::after,
 .hero .hero-text p {
   line-height: 1.5;
   margin-bottom: 1.875rem;
+  color: #005883;
+  text-align: center;
 }
 #hashtag {
   color: #F47920;
@@ -420,14 +428,12 @@ button:hover::after,
   margin-top: 2em;
   background: #005883;
   padding: 2rem;
-  padding-bottom: 0;
   text-align: center;
 }
 
 @media (min-width: 64em) {
   .footer {
-    padding: 3.125rem;
-    padding-bottom: 0;
+    padding: 1.125rem;
   }
 }
 
@@ -445,13 +451,12 @@ button:hover::after,
   color: #fff;
   font-size: 1.2rem;
   text-align: center;
-  padding-top: 1.875rem;
-  padding-bottom: 1.5625rem;
+  margin: auto!important;
 }
 @media (max-width: 63.9375em) {
   .attribution {
     font-size: 1em;
-    top: 0%;
+    vertical-align: middle;
   }
 }
 .dropdown {
@@ -462,9 +467,9 @@ button:hover::after,
 .dropdown-content {
   display: none;
   position: absolute;
-  line-height: 2.3em;
+  line-height: 2.5em;
   background-color: #f9f9f9;
-  width: 10em;
+  width: 9em;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
@@ -474,7 +479,7 @@ button:hover::after,
   position: absolute;
   line-height: 2.3em;
   background-color: #f9f9f9;
-  width: 25em;
+  width: 22em;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
@@ -504,14 +509,17 @@ button:hover::after,
   .dropdown-content2 {
     display: none;
     position: relative;
-    line-height: 2.3em;
+    line-height: 3em;
     background-color: #F0B429;
-    width: 25em;
+    width:  100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
   }
-  .dropdown:hover .dropdown-content,  .dropdown:hover .dropdown-content2{
+  .dropdown:hover .dropdown-content, .dropdown:active .dropdown-content{
+    display: block;
+  }
+  .dropdown:hover .dropdown-content2, .dropdown:active .dropdown-content2{
     display: block;
   }
 }
@@ -527,7 +535,7 @@ button:hover::after,
   margin: auto;
 }
 #post-contacto{
-	width: 100%;
+	max-width: 100%;
 	display: block;
 	margin: auto;
   box-shadow: #9698a6;
@@ -568,6 +576,7 @@ button:hover::after,
   }
 }
 #post-contacto, .contenido-anuncio{
+  width: 40%;
 	height: 50%;
 	border: 1px solid #B3B6B7;
 	border-radius: 1rem;
@@ -584,11 +593,14 @@ button:hover::after,
 }
 #datos-contacto p.fecha{
   color: #000000!important;
+  margin-top: 0;
+  font-size: 1rem;
+  margin-left: 0.5em;
 }
 .nombre{
 	font-size: 1rem!important;
 	font-weight: 800;
-	color: #2274F2;
+	color: #005883;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -600,8 +612,9 @@ button:hover::after,
 	margin-bottom: 0;
 }
 #icono-contacto{
-	margin-top: 0.6rem;
-  font-size: 1rem;
+	margin-top: 0.4rem;
+  font-size: inherit;
+  color: #005883;
 }
 @media (max-width: 63.9375em) {
   #titulo-monitores{
