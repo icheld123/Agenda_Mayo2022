@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda de Egresados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="normalize_reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/vermas.js"></script>
+</head>
+<body>
+    <div class="overlay fade-out"></div>
+    <header class="header"></header>
+    <div id="contenedor">
+        <div id="main">
+            <h3>Estos son los talleres del INVIL del mes de Mayo.</h3>
+            <div id="paginacion">
+                <a href="#" class="button" id="prev">Anterior</a>
+                <a href="#" class="button" id="next">Siguiente</a>
+            </div>
+            <h4 style="width: 80%; margin: auto;">¡Para ingresar al evento, sólo debes dar clic en el ícono de la página bajo cada evento!</h4>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page1">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>"Francés Avanzado: "Quelques articulateurs de temps Différentes façons de dire l’heure" (L’heure formelle et informelle Les horaires)"</p>
+                            <p class="fecha">Fecha: 02 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Emma Duitama</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJUvce-sqTMsEtfK1OcOzDUWjD9_1DEtxWKT" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Kids Lab: To describe a mounster and to practice adjectives</p>
+                            <p class="fecha">Fecha: 03 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Dayana Agudelo</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJctf-mhqzgrGtOWgYgeRFEASGa-ovdrD7Y6" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>English Workshop: Writing stories based on different topicsEnglish Workshop: Writing stories based on different topics</p>
+                            <p class="fecha">Fecha: 03 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Ana Maria Suarez</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJcuf-murjMvHdMoXJGEHsRG2mTtMRL3HvYD" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page2">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>English Lab: 21st Century new jobs</p>
+                            <p class="fecha">Fecha: 05 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Julian Rojas</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJItd-CgqzwvHtCYROzR9LRdMmfzv-jblUNV" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>"Francés Básico: Les jours, les mois, les saisons Les formules pour se saluer"</p>
+                            <p class="fecha">Fecha: 06 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Carlos Vasquez</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJUvcu-tqzsrE9cvSmxanydHmLv4aO7D0BBU" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Francés Avanzado: Le présent des verbes en –er (synthèse) Les professions</p>
+                            <p class="fecha">Fecha: 09 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJUvce-sqTMsEtfK1OcOzDUWjD9_1DEtxWKT" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page3">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Kids Lab:Talking about Fernando Botero´s life.</p>
+                            <p class="fecha">Fecha: 10 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Ana Milena Morales</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJctf-mhqzgrGtOWgYgeRFEASGa-ovdrD7Y6" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>English Workshop:Present perfect simple and present perfect continuous</p>
+                            <p class="fecha">Fecha: 10 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Leonor Vargas</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJcuf-murjMvHdMoXJGEHsRG2mTtMRL3HvYD" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Vocabulario de cocina</p>
+                            <p class="fecha">Fecha: 11 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Osvaldo Vides</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJYpdO2qrjwoH9A4biFj6qQChuCSNMiDpMFN" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page4">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>English Workshop: Talking about future plans</p>
+                            <p class="fecha">Fecha: 12 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Yaneth Burbano</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJItd-CgqzwvHtCYROzR9LRdMmfzv-jblUNV" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>"Básico: "Les points cardinaux Les modes de déplacement"</p>
+                            <p class="fecha">Fecha: 13 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Laura Stefanny</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJUvcu-tqzsrE9cvSmxanydHmLv4aO7D0BBU" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>"Francés Avanzado: Les verbes lire et écrire au présent. L’habitude et la fréquence"</p>
+                            <p class="fecha">Fecha: 16 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Yecid Morinelly</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJUvce-sqTMsEtfK1OcOzDUWjD9_1DEtxWKT" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page5">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Kids Lab:To know about domestic and Wild animals: classification of animals by size and place of living.</p>
+                            <p class="fecha">Fecha: 17 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Deiby Milena Aguirre</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJctf-mhqzgrGtOWgYgeRFEASGa-ovdrD7Y6" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>English Workshop: Analyzing articles</p>
+                            <p class="fecha">Fecha: 17 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Erick Gaviria</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJcuf-murjMvHdMoXJGEHsRG2mTtMRL3HvYD" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Descripción de personas</p>
+                            <p class="fecha">Fecha: 18 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Carolina Rojas</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJcod-muqDktEtfgCY7nSRjkvCDNZvBOJL4O" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page6">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>English Lab: Worldwide celebrations</p>
+                            <p class="fecha">Fecha: 19 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: José Giovanny Andrade</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJItd-CgqzwvHtCYROzR9LRdMmfzv-jblUNV" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Básico:Les sons et la phonétique du français.</p>
+                            <p class="fecha">Fecha: 20 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJUvcu-tqzsrE9cvSmxanydHmLv4aO7D0BBU" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Básico: Phonétique française</p>
+                            <p class="fecha">Fecha: 23 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Natalia Grueso</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJUvce-sqTMsEtfK1OcOzDUWjD9_1DEtxWKT" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page7">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Kids Lab:To talk about clothes and accesories vocabulary and structure, by spelling, dictation and interactive activities.</p>
+                            <p class="fecha">Fecha: 24 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Kendry Olivares</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJctf-mhqzgrGtOWgYgeRFEASGa-ovdrD7Y6" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>English Workshop: Giving advices according to the situations (Should/ have to/ must)</p>
+                            <p class="fecha">Fecha: 24 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: David Mauricio Tovar</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJcuf-murjMvHdMoXJGEHsRG2mTtMRL3HvYD" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Falsos amigos</p>
+                            <p class="fecha">Fecha: 25 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Osvaldo Vides</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJYpdO2qrjwoH9A4biFj6qQChuCSNMiDpMFN" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page8">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>English Lab: Healthy recipes</p>
+                            <p class="fecha">Fecha: 26 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Adriana Sandoval</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJItd-CgqzwvHtCYROzR9LRdMmfzv-jblUNV" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>"Básico: Le verbe s’appeler au présent (1) Les pronoms personnels sujets (1)"</p>
+                            <p class="fecha">Fecha: 27 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Samir Layseka</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJUvcu-tqzsrE9cvSmxanydHmLv4aO7D0BBU" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Kids Lab:Food vocabulary and practice of basic structures, using like, dislike, love.</p>
+                            <p class="fecha">Fecha: 31 de mayo de 2022</p>
+                            <p class="fecha">Hora: 04:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Silvio Santacruz</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJctf-mhqzgrGtOWgYgeRFEASGa-ovdrD7Y6" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page9">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>English Workshop: Recognize English knowledge</p>
+                            <p class="fecha">Fecha: 31 de mayo de 2022</p>
+                            <p class="fecha">Hora: 06:00 p.m</p>
+                            <p class="fecha">Nombre del Tutor: Yuly Paola Charris</p>
+                            <div id="botones-evento">
+                                <div id="via-evento">
+                                    <a href="https://unad-edu-co.zoom.us/meeting/register/tJcuf-murjMvHdMoXJGEHsRG2mTtMRL3HvYD" id="" target="_blank"><img
+                                        src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer"></footer>
+    <script  src="js/script.js"></script>
+    <script type="text/javascript">
+    $(function () {
+        $(".header").load("navbar.html");
+    });
+    $(function () {
+        $(".footer").load("footer.html");
+    });
+    </script>
+</body>
+</html>
+

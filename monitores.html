@@ -8,12 +8,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet"/><link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="normalize_reset.css">
   <script src="js/vermas.js"></script>
 </head>
 <body>
     <div class="overlay fade-out"></div>
     <header class="header"></header>
-    <div id="contenedor" style="width: 70%;margin: auto;">
+    <div id="contenedor" style="max-width: 66rem;margin: auto;">
         <div id="main">
             <h3 id="texto-lider">"Nuestro compromiso continúa, porque impulsar tu desarrollo <br>profesional para
             alcanzar
@@ -37,15 +38,15 @@
                     <p class="nombre">Nubia Melo</p>
                     <div id="datos-contacto">
                         <i class="fa fa-envelope" id="icono-contacto" aria-hidden="true"></i>
-                        <p class="fecha">nmmelor@unadvirtual.edu.co</p>
+                        <p class="fecha"> nmmelor@unadvirtual.edu.co</p>
                     </div>
                     <div id="datos-contacto">
                         <i class="fa fa-skype" id="icono-contacto" aria-hidden="true"></i>
-                        <p class="fecha">.cid.f78208810c19271a</p>
+                        <p class="fecha"> .cid.f78208810c19271a</p>
                     </div>
                     <div id="datos-contacto">
                         <i class="fa fa-whatsapp" id="icono-contacto" aria-hidden="true"></i>
-                        <p class="fecha"></p>
+                        <p class="fecha"> 317 7876675</p>
                     </div>
                 </div>
             </div>
@@ -56,15 +57,15 @@
                     <p class="nombre">Camila Mercado</p>
                     <div id="datos-contacto">
                         <i class="fa fa-envelope" id="icono-contacto" aria-hidden="true"></i>
-                        <p class="fecha">camercadot@unadvirtual.edu.co</p>
+                        <p class="fecha"> camercadot@unadvirtual.edu.co</p>
                     </div>
                     <div id="datos-contacto">
                         <i class="fa fa-skype" id="icono-contacto" aria-hidden="true"></i>
-                        <p class="fecha">kmitheran</p>
+                        <p class="fecha"> kmitheran</p>
                     </div>
                     <div id="datos-contacto">
                         <i class="fa fa-whatsapp" id="icono-contacto" aria-hidden="true"></i>
-                        <p class="fecha">314 6810182</p>
+                        <p class="fecha"> 314 6810182</p>
                     </div>
                 </div>
             </div>
@@ -75,25 +76,25 @@
                     <p class="nombre">David Carrasco</p>
                     <div id="datos-contacto">
                         <i class="fa fa-envelope" id="icono-contacto" aria-hidden="true"></i>
-                        <p class="fecha">drcarrascoc@unadvirtual.edu.co</p>
+                        <p class="fecha"> drcarrascoc@unadvirtual.edu.co</p>
                     </div>
                     <div id="datos-contacto">
                         <i class="fa fa-skype" id="icono-contacto" aria-hidden="true"></i>
-                        <p class="fecha">david-carrasco_1</p>
+                        <p class="fecha"> david-carrasco_1</p>
                     </div>
                     <div id="datos-contacto">
                         <i class="fa fa-whatsapp" id="icono-contacto" aria-hidden="true"></i>
-                        <p class="fecha">350 8655887</p>
+                        <p class="fecha"> 350 8655887</p>
                     </div>
                 </div>
             </div>
             <div id="post-contacto">
                 <div id="contenido-anuncio">
                     <p class="zona">ZONA CENTRO <br>ORIENTE</p>
-                    <img src="img/ZCORI.png" alt="Foto e-monitoria Zona Centro Sur" id="img-contacto" style="max-width: 40%;">
+                    <img src="img/ZCORI.png" alt="Foto e-monitoria Zona Centro Sur" id="img-contacto" style="max-width: 46%;">
                     <p class="nombre">Ana María Riaño</p>
                     <div id="datos-contacto">
-                        <i class="fa fa-envelope" id="icono-contacto" aria-hidden="true"></i>
+                        <i class="fa fa-envelope" id="icono-contacto" aria-hidden="true"> </i>
                         <p class="fecha"> amrianoc@unadvirtual.edu.co</p>
                     </div>
                     <div id="datos-contacto">
@@ -203,17 +204,15 @@
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <div class="attribution">
-            <h3 id="hashtag">#SigamosEnContacto</h3>
-          <p>e-Monitoria de Egresados ZCBC - UNAD</p>
-        </div>
-    </footer>
+    <footer class="footer"></footer>
     <script  src="js/script.js"></script>
     <script type="text/javascript">
-        $(function () {
-            $(".header").load("navbar.html");
-        });
+    $(function () {
+        $(".header").load("navbar.html");
+    });
+    $(function () {
+        $(".footer").load("footer.html");
+    });
     </script>
 </body>
 </html>

@@ -424,6 +424,7 @@ button:hover::after,
 #hashtag {
   color: #F47920;
 }
+
 .footer {
   margin-top: 2em;
   background: #005883;
@@ -667,6 +668,19 @@ button:hover::after,
     margin-bottom: 0;
   }
 }
+#divBtn{
+  max-width: 15%;
+  margin: auto; 
+}
+#divBtn a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem auto;
+  align-items: center;
+}
 /* Botones de anuncios */
 #botones, .boton {
 	color: #ffffff;
@@ -678,7 +692,6 @@ button:hover::after,
 	margin-top: 0.5rem;
 	display: inline-block;
 	text-align: center;
-	text-transform: uppercase;
 	border:none;
 }	
 .boton:hover {
